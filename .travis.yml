@@ -10,3 +10,4 @@ before_install:
     
 after_success:
     - coveralls --include "balanced.cpp" --gcov-options '\-lp'
+    
